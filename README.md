@@ -168,4 +168,10 @@ For deeper background, see:
 - `docs/BALANCEBOT_DETAILED_REPORT.md`
 - `docs/TECHNICAL_README.md`
 
+## Project Video
+
+Watch a short walkthrough of the project here:
+
+- [BalanceBot demo video](https://www.youtube.com/watch?v=445UGpZdFRg)
+
 If you plan to continue cleaning or publishing the repo, the next useful step is to trim the remaining legacy task branches and decide which historical variants should stay in `archive/`.
