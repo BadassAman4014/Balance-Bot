@@ -51,17 +51,7 @@ sim = None
 
 scope = ['https://www.googleapis.com/auth/spreadsheets', "https://www.googleapis.com/auth/drive.file", "https://www.googleapis.com/auth/drive"]
 credentials = {
-		"type": "service_account",
-		"project_id": "bb-logs-431613",
-		"private_key_id": "a4506d44024339472c6cae03bddb65257200038b",
-		"private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQDA2GeVj68LVk+O\nsEDyOBAIhRH/0BFaD/rf2Swws+5G3EwC6qddOThCkMNsT4CuzpCLUeC9Na+bZCqZ\ngqv3+ygHCNFzCbVhtAu0/L5BlaYAtSOlwdayEJRcA4d1zyIZ9cvzDne8DKiMzcnU\nbQ1UsDCn5gET0GiHPmIYf7UJHc91TKRPa+echb+UPonL0q/BTXnpiNDDKBDPNdM3\nSszl1Hx0oP+SWiWqsaPdKTUjJzRSBm8Sh3TJrvfENehDwoAg6O+UXbTvy7Jx/EGU\nvmbss0zTD3239KihiYa1flQdAYWZv5E8d9U2YSrye+r8+YLbOMqXaPx/xzXPlrfK\n3wp0YzjBAgMBAAECggEABVwGTfNpMpwWmDE5DtpExM3Y9RZ14v5Cc0XsetqHTuAY\nuzSFC/vW/s+Z5MjVW1ZZkUuoXq3PKHcJUYyehaTs5PwnYQZ2LGXV9PTYv0ceztJ5\n8AWB918rVl7RPRKRgK3yefnvFTJ3XTlraGxS9GV0prfnVAME4qxWytZCxGL4FOsM\n40sS6+V5w10KkS0hyBJU9I6AjZMGcVI96hLQtMlFQOQV62EntrV5o0++Bs6lGczp\nrFt/0u+hazMUlDzY3iKvpgayreO5X7qoJJm6dDWSo6Sfq4wlKA3VveUG+cM3t72R\nRE9eljYOCfw6QD9ORa8XBZtNfN9aGXZIoqKbU92TaQKBgQDlNn30gmczKdwkSRQo\nCt/pPU3+CZWhu5rCnXfeHbfzU9u5GrWH40llgQDjgWgxZqtu/uWZyPuo6AtVEwUy\nkh6HqdzdDx42rhG1GrTbAIiSOn606FG8kQjFps8yqIfVWlL9awiTnCppy2O5QFU0\n9UDDzJubFWkdhR5b4TFft11lKQKBgQDXYeHHduYcjtCrlL4CTI7WWaAqA+VknAES\nxS/+CPZjMOv0OyjYnppI03gEiA2y70n/P4NmdUcwvDnJK7mdvuwrRcvsKF+UeV2y\ng0v3xUzaFaxyasfFZuRCYv7pr1cG/hRcmRI5fd9dlS4xWpkXqe/Yc8oU8pGKkbY9\nz4lf09LR2QKBgQCIUgVNIzU/X5j216OuQPF0ZSp6eLbOTqY3MrH0nxYlGG2oRDNM\nkye2v6eIpxERuG8i/2QMN1U82mzK9xnzPqX7p1GdA33DpXkQjcacLVAML8/lxfm+\nvT9LVe8KwOKwSBztbPfX2lv7OaSgq5tBeM9A4/JzpKM0lFQ+7sqPk51vKQKBgGV8\nGYaC36pVIL24OE+dAzC8ylsBuvTNDTRq9VIdpvrV8lgCCB0JnmjyO3rnII1Pcu5y\nXtfIKuMrzY6cq7lIXL+HA68i1uZ+yUdz1jfJH40i6T6AUeERujwNqU8y7y68SZvY\nBF5SkQznXfyjU79yszCqXm3AXhOM1PIK+A/PH2cBAoGAMLztRveOQxy0eU0Cl9KE\nvL4qbH2XYGn1aEHPTY8Dpx4A1varNKhXzUtHGPhVWPB1Qq//jot6+DgClQ6Kda4C\n+Vh8+1GUxv3DihmGcCvwb8BXwpaPhB9qq/2HnoWvq1bSKnRvA5ab8LC1z/DV1DRZ\nfXKQhr8q5KB9QfMmD8IzhzI=\n-----END PRIVATE KEY-----\n",
-		"client_email": "balancing-builder-bot@bb-logs-431613.iam.gserviceaccount.com",
-		"client_id": "105579116913873875207",
-		"auth_uri": "https://accounts.google.com/o/oauth2/auth",
-		"token_uri": "https://oauth2.googleapis.com/token",
-		"auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
-		"client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/balancing-builder-bot%40bb-logs-431613.iam.gserviceaccount.com",
-		"universe_domain": "googleapis.com"
+#creds for evaluator
 }
 
 client = gspread.service_account_from_dict(credentials)
