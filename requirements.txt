@@ -1,0 +1,12 @@
+# Python dependencies used by the simulation and analysis scripts
+numpy
+scipy
+sympy
+pandas
+plotly
+matplotlib
+opencv-python
+pyzmq
+coppeliasim-zmqremoteapi-client
+jupyter
+ipykernel

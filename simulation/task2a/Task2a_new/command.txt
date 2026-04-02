@@ -1,0 +1,4 @@
+conda activate BB_1545
+cd C:\Users\amanr\Desktop\BalanceBot\2A\Task2a_new
+task2a.exe
+1545

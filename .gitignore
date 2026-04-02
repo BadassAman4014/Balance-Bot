@@ -1,0 +1,29 @@
+# Python caches and virtual environments
+__pycache__/
+*.py[cod]
+*.pyd
+.pytest_cache/
+.mypy_cache/
+.venv/
+venv/
+env/
+
+# Generated archives and binaries
+*.zip
+*.exe
+*.log
+*.o
+*.obj
+*.dll
+
+# PyArmor and scratch files
+**/pyarmor_runtime_000000/
+**/tempCodeRunnerFile.py
+
+# Notebook and editor noise
+.ipynb_checkpoints/
+.vscode/
+.idea/
+
+# Local-only archive area
+archive/
